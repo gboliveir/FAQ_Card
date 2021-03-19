@@ -1,15 +1,6 @@
 
 <h1 align="center">FAQ Accordion Card</h1>
 
-<p align="center">
-    <a href="#objetivo">Objetivo</a> •
-    <a href="#roadmap">Roadmap</a> • 
-    <a href="#tecnologias">Tecnologias</a> • 
-    <a href="#contribuicao">Contribuição</a> • 
-    <a href="#licenc-a">Licença</a> • 
-    <a href="#autor">Autor</a>
-</p>
-
 # 💻 Sobre o projeto
 
 <p align="center">O FAQ é uma tela que lembra um cartão com uma lista de informações relevante para o usuário que deseja saber mais sobre o produto ou sistema.</p>
