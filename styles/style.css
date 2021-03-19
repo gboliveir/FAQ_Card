@@ -1,0 +1,231 @@
+:root {
+    font-size: 12px;
+
+    /*Text Primary*/
+    --very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --soft-red: hsl(14, 88%, 65%);
+
+    /*Background gradient*/
+    --soft-violet: hsl(273, 75%, 66%);
+    --soft-blue: hsl(240, 73%, 65%);
+
+    /*Text Neutral*/
+    --very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --dark-grayish-blue: hsl(240, 6%, 50%);
+
+    /*Dividers*/
+    --light-grayish-blue: hsl(240, 5%, 91%);
+
+    /*Typography*/ 
+
+        /*Body font
+        - Font size: 12px
+        */
+
+        /*font-family
+        - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+        - Weights: 400, 700
+        */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var( --soft-violet);
+    background: linear-gradient(to bottom, var(--soft-violet), var(--soft-blue));
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 7rem;
+    border-radius: 8px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    width: 85rem;
+    height: 45rem;
+    
+    padding-right: 4rem;
+
+    background-color: var(--light-grayish-blue);
+}
+
+.container figure {
+    background: url(../images/illustration-woman-online-desktop.svg) no-repeat, url(../images/bg-pattern-desktop.svg) no-repeat;
+    background-position: -80px 70px, -575px -300px;
+    display: flex;
+    align-items: center;
+}
+
+.container figure img#illustration-box {
+    position: relative;
+    left: -120px;
+    bottom: -50px;
+}
+
+.space-content h2 {
+    margin: 5rem 0 2rem 0;
+    font-size: 3rem;
+}
+
+.space-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-content ul li {
+    color: var(--very-dark-grayish-blue);
+
+    font-size: 1.3rem;
+
+    padding: 0 1rem 0 0;
+
+    border-bottom: 1px solid gray;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.space-content ul li div.group-items {
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+
+.space-content ul li p {
+    color: var(--dark-grayish-blue);
+    cursor: default;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.space-content ul li span, .space-content ul li img {
+    cursor: pointer;
+}
+
+.space-content ul li div:hover {
+    color: var(--soft-red);
+}
+
+.liSelected {
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.optionClose {
+    display: none;
+    visibility: none;
+}
+
+.openingPosition {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+
+@media (max-width: 1012px) {
+    main {
+        height: 800px;
+    } 
+    
+    .container {
+        position: relative;
+
+        border-radius: 8px;
+    
+        display: flex;
+        flex-direction: column;
+
+        width: 31.25rem;
+        height: 45rem;
+        
+        margin: auto;
+    
+        background-color: var(--light-grayish-blue);
+        padding: 30px;
+    }
+
+    .container figure {
+        background: url(../images/illustration-woman-online-mobile.svg) no-repeat, url(../images/bg-pattern-mobile.svg) no-repeat;
+        background-position:  top 50% left 35%, top 100% left 50%;
+        position: absolute;
+        width: 100%;
+        height: 20rem;
+        top: -1%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container img#illustration-box {
+        display: none;
+        visibility: none;
+    }
+    
+    .space-content h2 {
+        text-align: center;
+        margin: 8rem 0 1rem 0;
+    }
+
+    .space-content ul {
+        width: 100%;
+    }
+
+    .space-content ul li {
+        color: var(--very-dark-grayish-blue);
+            
+        border-bottom: 1px solid gray;
+    
+        display: flex;
+        flex-direction: column; 
+        width: 100%;       
+    }
+
+    .space-content ul li span, .space-content ul li p {
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width: 376px) {
+    .container {
+        width: 25rem;
+        height: 50rem;
+    }
+
+    .space-content ul li {
+        padding: 0;
+    }
+
+    .space-content li p {
+        font-size: 9px;
+    }
+
+}
