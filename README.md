@@ -9,16 +9,9 @@
 	🚧 🚀 Status de Andamento do Projeto: Card Finalizado.  🚧
 </h3>
 
-## Features
+## Principais aprendizados:
 
-- [x] Criação de esqueleto HTML
-- [x] Estilização de TAGs HTML 
-- [x] Criação e renderização de elementos via JavaScript
-- [x] Responsividade
-
-## Está tela conta com:
-
-- manipulação de imagens SVG utilizando background-image e TAG IMG para criação de uma só imagem linda!
+- Manipulação de imagens SVG utilizando background-image e TAG IMG para criação de uma só imagem.
 - Linear Gradient para um toque de cores ainda mais atraente!
 - Interação com o usuário que transforma os elementos em tela e mostra conteúdos!
 - Media Query para lidar com responsividade em diversas telas!
@@ -56,7 +49,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </div>
 
 # Autor
-Feito por Gabriel Brito ❤️👋🏽
+Gabriel Brito ❤️👋🏽
 [![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-brito-260319205)](https://www.linkedin.com/in/gabriel-brito-260319205) 
 [![Gmail Badge](https://img.shields.io/badge/-gabrielbrito.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabrielbrito.dev@gmail.com)](mailto:gabrielbrito.dev@gmail.com)
 
